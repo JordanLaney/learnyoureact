@@ -1,0 +1,27 @@
+{
+  "name": "learnyoureact",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanLaney/learnyoureact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanLaney/learnyoureact/issues"
+  },
+  "homepage": "https://github.com/JordanLaney/learnyoureact#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-react-views": "^0.9.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export default class TodoBox extends React.Component {
 	render() {
@@ -21,7 +20,6 @@ class TodoList extends React.Component {
 					<tbody>
 						<Todo title="Shopping">Milk</Todo>
 						<Todo title="Hair cut">13:00</Todo>
-						<Todo title="Learn React">15:00</Todo>
 					</tbody>
 				</table>
 			</div>
@@ -38,9 +36,6 @@ class Todo extends React.Component {
       </tr>
 		);
 	}
-}
-Todo.propTypes = {
-	title: PropTypes.string
 }
 
 class TodoForm extends React.Component {
